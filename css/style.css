@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  body {
+    font-family: 'montserrat', sans-serif;
+    
+    background-image: url('../img/bg.jpg');
+    
+    background-size: cover;
+    background-position: top center;
+ 
+}  
+  .weather {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+ .weather-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+    text-align: center;
+   
+    color: black;
+    margin: 0;
+    padding: 0;
+  
+  }
+  .ca{
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+  height: 50px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+    text-align: center;
+  }
+.c{
+    margin: 0;
+    padding: 0;
+    height: 200px;
+   /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)); */
+}
+ 
+#map{
+  
+  height: 200px;
+}
+.td{
+  border: 1px solid black;
+  height: 300px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+  color:lightyellow;
+}
+.tit{
+  text-align: center;
+}
+.hr{
+  width:100%;
+  border-color: white;
+}
+.piepag{
+  justify-content: center;
+text-align: center  ;
+color: white;
+}
